@@ -52,7 +52,7 @@ const proxyAllIframesOnLoad = () => {
   }
 };
 
-if (module) {
+if (typeof module !== 'undefined') {
   module.exports = {
     proxyAllIframesOnLoad,
     proxyAllIframes,

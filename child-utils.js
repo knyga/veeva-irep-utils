@@ -82,7 +82,7 @@ const initvVevaCLMChildProxy = () => {
   return veevaCLMChildProxy;
 };
 
-if (module) {
+if (typeof module !== 'undefined') {
   module.exports = {
     initvVevaCLMChildProxy,
     handleVeevaCLMEventResult,
